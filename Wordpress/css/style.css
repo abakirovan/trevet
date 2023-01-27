@@ -1,0 +1,180 @@
+body {
+    width: 80%;
+    margin-left: 150px;
+    border: 2px solid black;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pon {
+    display: block;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+nav {
+    background-color: #B0C4DE;
+}
+
+ a {
+    margin: 20px;
+    color: black;
+    margin-top: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid rgb(135, 144, 170);
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 5px 0 0 rgb(135, 144, 170);
+    background-color: aliceblue;
+}
+
+ a:focus {
+    box-shadow:inset 0 5px 0 2px rgb(135, 144, 170) ;
+    color: black;
+    top: 10px
+}
+
+h1 {
+    padding: 5px;
+    font-size: 50px;
+    text-align: center;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.waiting_wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.waiting_img {
+    width: 300px;
+}
+
+.km {
+    height: 200px;
+    width: 300px;
+}
+
+.review {
+    display: block;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 15px;
+    border-left: 10px double rgb(81, 81, 81);
+    border-right: 10px double rgb(81, 81, 81);
+}
+
+.review:hover {
+    transform: rotateX('100px') rotateY('0px');
+    transition: 1s linear;
+}
+
+.waiting_item {
+    width: 300px;
+    padding: 10px;
+    border: 5px double black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #B0C4DE;
+}
+
+.waiting_header {
+    text-align: center;
+    padding: 50px;
+    border-top: 5px dotted black;
+    font-size: 40px;
+}
+
+.il {
+    width: 100%;
+}
+
+.oni {
+    width: 100px;
+    height: 100px;
+}
+
+.reviews {
+    width: 870px;
+    float: left;
+    margin-left: 30px;
+}
+
+.review {
+    border-left: 10px double navy;
+    width: 350px;
+    padding-left: 10px;
+}
+
+header, nav {
+    padding: 5px;
+}
+
+.title {
+    text-align: center;
+    margin: 20px;
+}
+
+.title_big {
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+}
+
+.more_text {
+    text-align: center;
+    background-color: #8fddf2;
+    padding: 5px;
+    border-radius: 15;
+    margin: 20px;
+}
+
+.pow {
+    width: 100%;
+}
+
+.icons {
+    height: 40px;
+    width: 40px;
+}
+
+.po{
+    border:  3px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+footer  {
+    background-color: #B0C4DE;
+    padding: 5px;
+    border:2px solid black;
+
+}
+footer p {
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
